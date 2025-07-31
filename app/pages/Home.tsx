@@ -1,4 +1,4 @@
-import { Code, Cpu, Terminal } from "lucide-react";
+import { Terminal } from "lucide-react";
 
 export default function Home() {
   return (
