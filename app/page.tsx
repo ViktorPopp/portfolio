@@ -2,11 +2,6 @@
 
 import { useState } from "react";
 import Home from "./pages/Home";
-import About from "./pages/About";
-import Projects from "./pages/Projects";
-import { Contact } from "lucide-react";
-
-type Page = "home" | "about" | "projects" | "contact";
 
 export default function App() {
   const [currentPage, setCurrentPage] = useState<Page>("home");
@@ -15,12 +10,6 @@ export default function App() {
     switch (currentPage) {
       case "home":
         return <Home />;
-      case "about":
-        return <About />;
-      case "projects":
-        return <Projects />;
-      case "contact":
-        return <Contact />;
       default:
         return <Home />;
     }
