@@ -1,1 +1,1 @@
-type Page = "home";
+type Page = "home" | "contact";
