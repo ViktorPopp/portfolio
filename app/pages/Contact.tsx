@@ -3,14 +3,7 @@
 import type React from "react";
 
 import { useState } from "react";
-import {
-  Mail,
-  Github,
-  Linkedin,
-  MessageSquare,
-  Send,
-  CheckCircle,
-} from "lucide-react";
+import { Mail, Github } from "lucide-react";
 
 export default function Contact() {
   return (
