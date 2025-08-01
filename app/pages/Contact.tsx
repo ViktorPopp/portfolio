@@ -1,8 +1,6 @@
 "use client";
 
 import type React from "react";
-
-import { useState } from "react";
 import { Mail, Github } from "lucide-react";
 
 export default function Contact() {
